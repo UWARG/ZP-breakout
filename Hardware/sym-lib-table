@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name WARG)(type Legacy)(uri ${KIPRJMOD}/../WARG-kicad/WARG.lib)(options "")(descr ""))
 )

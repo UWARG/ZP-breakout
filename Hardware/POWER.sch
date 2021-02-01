@@ -142,11 +142,9 @@ F 4 "CONN-008" H 9150 3000 50  0001 C CNN "part_num"
 $EndComp
 Text HLabel 6600 2900 0    60   Input ~ 0
 5V_USB+
-Wire Wire Line
-	9450 2900 10250 2900
-Text HLabel 10250 2900 2    60   Output ~ 0
+Text HLabel 10500 3000 2    60   Output ~ 0
 6V_EXT
-Text Label 9500 2900 0    60   ~ 0
+Text Label 9500 3000 0    60   ~ 0
 6V_EXT
 Connection ~ 9000 5650
 Wire Wire Line
@@ -337,65 +335,58 @@ Text Label 9550 3100 0    59   ~ 0
 3V3
 Text HLabel 9800 3100 2    60   Output ~ 0
 3V3
-Text Label 9500 3000 0    59   ~ 0
+Text Label 9500 2900 0    59   ~ 0
 5V_INT
-Wire Wire Line
-	10300 3000 10500 3000
-Connection ~ 10300 3000
-Wire Wire Line
-	10300 3000 10300 3250
-Wire Wire Line
-	9450 3000 10300 3000
 $Comp
 L Device:R R8
 U 1 1 5CC233BF
-P 10300 3400
-F 0 "R8" V 10380 3400 50  0000 C CNN
-F 1 "100" V 10300 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 10230 3400 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10300 3400 50  0001 C CNN
-F 4 "RESS-006" V 10300 3400 60  0001 C CNN "part_num"
-	1    10300 3400
+P 10100 3350
+F 0 "R8" V 10180 3350 50  0000 C CNN
+F 1 "100" V 10100 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 10030 3350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10100 3350 50  0001 C CNN
+F 4 "RESS-006" V 10100 3350 60  0001 C CNN "part_num"
+	1    10100 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5CC21AE8
-P 10300 4300
-F 0 "#PWR0108" H 10300 4050 50  0001 C CNN
-F 1 "GND" H 10300 4150 50  0000 C CNN
-F 2 "" H 10300 4300 50  0000 C CNN
-F 3 "" H 10300 4300 50  0000 C CNN
-	1    10300 4300
+P 10100 4250
+F 0 "#PWR0108" H 10100 4000 50  0001 C CNN
+F 1 "GND" H 10100 4100 50  0000 C CNN
+F 2 "" H 10100 4250 50  0000 C CNN
+F 3 "" H 10100 4250 50  0000 C CNN
+	1    10100 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 3850 10300 4000
+	10100 3800 10100 3950
 $Comp
 L Device:R R9
 U 1 1 5CBD97C2
-P 10300 3700
-F 0 "R9" V 10380 3700 50  0000 C CNN
-F 1 "100" V 10300 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 10230 3700 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10300 3700 50  0001 C CNN
-F 4 "RESS-006" V 10300 3700 60  0001 C CNN "part_num"
-	1    10300 3700
+P 10100 3650
+F 0 "R9" V 10180 3650 50  0000 C CNN
+F 1 "100" V 10100 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 10030 3650 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10100 3650 50  0001 C CNN
+F 4 "RESS-006" V 10100 3650 60  0001 C CNN "part_num"
+	1    10100 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D16
 U 1 1 5CBD935A
-P 10300 4150
-F 0 "D16" H 10300 4250 50  0000 C CNN
-F 1 "PWR_LED" H 10300 4050 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad0.67x1.00mm_HandSolder" H 10300 4150 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 10300 4150 50  0001 C CNN
-F 4 "DIOD-003" H 10300 4150 60  0001 C CNN "part_num"
-	1    10300 4150
+P 10100 4100
+F 0 "D16" H 10100 4200 50  0000 C CNN
+F 1 "PWR_LED" H 10100 4000 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad0.67x1.00mm_HandSolder" H 10100 4100 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 10100 4100 50  0001 C CNN
+F 4 "DIOD-003" H 10100 4100 60  0001 C CNN "part_num"
+	1    10100 4100
 	0    1    -1   0   
 $EndComp
-Text HLabel 10500 3000 2    60   Output ~ 0
+Text HLabel 10250 2900 2    60   Output ~ 0
 5V_INT
 Wire Wire Line
 	8350 2900 8850 2900
@@ -426,4 +417,13 @@ Wire Wire Line
 	9250 3150 9250 3100
 Wire Wire Line
 	9250 3100 9600 3100
+Wire Wire Line
+	9450 3000 10500 3000
+Wire Wire Line
+	10100 3200 10100 2900
+Wire Wire Line
+	9450 2900 10100 2900
+Connection ~ 10100 2900
+Wire Wire Line
+	10100 2900 10250 2900
 $EndSCHEMATC

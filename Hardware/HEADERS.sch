@@ -386,8 +386,6 @@ Wire Wire Line
 	4050 3900 4050 4500
 Connection ~ 4050 4500
 Wire Wire Line
-	4200 2000 4200 2350
-Wire Wire Line
 	3900 3800 3950 3800
 Wire Wire Line
 	3900 3700 4000 3700
@@ -505,14 +503,12 @@ Wire Wire Line
 Text HLabel 9000 5100 0    59   Input ~ 0
 NRST_SAFETY
 Connection ~ 9650 5100
-Text HLabel 9300 2250 0    60   Input ~ 0
-V_I2C
 Wire Wire Line
 	9350 2250 9300 2250
 Wire Wire Line
 	9350 2250 9350 2700
 Text Notes 9350 1750 0    60   ~ 0
-Note: V_I2C is 3V3_INT\n
+Note: I2C_PULLUP is 3V3_INT\n
 Wire Wire Line
 	9700 5950 9700 6150
 Wire Wire Line
@@ -548,8 +544,6 @@ $EndComp
 Wire Wire Line
 	10550 2900 10550 3000
 Connection ~ 9700 5950
-Text HLabel 10500 2050 0    60   Input ~ 0
-V_I2C
 Wire Wire Line
 	10550 2050 10500 2050
 Wire Wire Line
@@ -635,21 +629,11 @@ Wire Wire Line
 	3900 3050 4500 3050
 Wire Wire Line
 	3900 3150 4500 3150
-Wire Wire Line
-	3900 2650 4050 2650
-Wire Wire Line
-	4050 2650 4050 3250
 Connection ~ 4050 3900
 Wire Wire Line
 	3900 3250 4050 3250
-Connection ~ 4050 3250
 Wire Wire Line
 	4050 3250 4050 3900
-Wire Wire Line
-	3900 2350 4200 2350
-Connection ~ 4200 2350
-Wire Wire Line
-	4200 2350 4200 2950
 Wire Wire Line
 	3900 2950 4200 2950
 Connection ~ 4200 2950
@@ -1246,12 +1230,12 @@ F 4 "CONN-08" H 3900 3500 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J27
+L Connector_Generic:Conn_01x02 J27
 U 1 1 604C5194
 P 3700 2550
 F 0 "J27" H 3800 2800 60  0000 C CNN
-F 1 "GH-4" H 3800 2300 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3700 2600 60  0001 C CNN
+F 1 "GH-2" H 3800 2300 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3700 2600 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 2600 60  0001 C CNN
 F 4 "CONN-08" H 3900 2900 60  0001 C CNN "part_num"
 	1    3700 2550
@@ -1302,10 +1286,6 @@ Wire Wire Line
 	9250 4300 9150 4300
 Wire Wire Line
 	9250 5450 9200 5450
-Text HLabel 9150 4300 0    60   Input ~ 0
-V_I2C
-Text HLabel 9200 5450 0    60   Input ~ 0
-V_I2C
 Wire Wire Line
 	10800 5950 10800 6300
 Wire Wire Line
@@ -1395,4 +1375,14 @@ Wire Wire Line
 Wire Wire Line
 	8050 3000 8050 3850
 Connection ~ 8050 3850
+Wire Wire Line
+	4200 2000 4200 2950
+Text HLabel 9300 2250 0    60   Input ~ 0
+I2C_PULLUP
+Text HLabel 10500 2050 0    60   Input ~ 0
+I2C_PULLUP
+Text HLabel 9150 4300 0    60   Input ~ 0
+I2C_PULLUP
+Text HLabel 9200 5450 0    60   Input ~ 0
+I2C_PULLUP
 $EndSCHEMATC

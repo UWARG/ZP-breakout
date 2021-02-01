@@ -1,4 +1,4 @@
-update=2021-01-24 4:12:11 AM
+update=2021-01-31 3:34:50 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,14 +22,14 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=ZeroPilot.net
+LastNetListRead=
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.08889999999999999
+MinTrackWidth=0.2
 MinViaDiameter=0.254
 MinViaDrill=0.2
 MinMicroViaDiameter=0.2
@@ -50,8 +50,8 @@ ViaDiameter2=0.508
 ViaDrill2=0.254
 ViaDiameter3=1.27
 ViaDrill3=0.635
-dPairWidth1=0.2
-dPairGap1=0.25
+dPairWidth1=0.2024
+dPairGap1=0.254
 dPairViaGap1=0.25
 dPairWidth2=0.2032
 dPairGap2=0.127
@@ -255,8 +255,8 @@ ViaDiameter=0.508
 ViaDrill=0.254
 uViaDiameter=0.762
 uViaDrill=0.508
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.2024
+dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=BATT
