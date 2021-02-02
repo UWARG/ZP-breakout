@@ -1,4 +1,4 @@
-update=2021-01-31 3:34:50 PM
+update=2021-02-01 5:37:17 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=ZP-Breakout.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -79,7 +79,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=COMP+SIG
 Type=0

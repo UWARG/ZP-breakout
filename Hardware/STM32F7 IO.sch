@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 10 10
 Title "Autopilot Controller I/O"
 Date "2017-05-14"
 Rev ""
@@ -158,10 +158,6 @@ Text HLabel 2900 3050 2    60   Input ~ 0
 TIM11_CH1
 Text HLabel 7950 3200 2    60   BiDi ~ 0
 SPI5_NSS
-Text HLabel 1500 4600 0    60   BiDi ~ 0
-SPI2_MISO
-Text HLabel 1500 4700 0    60   BiDi ~ 0
-SPI2_MOSI
 Text HLabel 2900 3650 2    60   Input ~ 0
 UART4_CTS
 Text HLabel 2900 3450 2    60   Input ~ 0
@@ -195,9 +191,6 @@ SPI4_MOSI
 Text HLabel 7450 1100 2    60   Input ~ 0
 MEM_WC
 NoConn ~ 1650 3450
-NoConn ~ 1650 3150
-NoConn ~ 1700 4800
-NoConn ~ 1700 4900
 NoConn ~ 2750 6200
 NoConn ~ 1700 6200
 NoConn ~ 1700 6300
@@ -467,30 +460,6 @@ F 4 "CHIP-001" H 2250 3150 60  0000 C CNN "part_num"
 $EndComp
 $Comp
 L WARG:STM32F765ZGT6 U4
-U 2 1 595F8A92
-P 2150 3500
-F 0 "U4" H 2150 4400 60  0000 C CNN
-F 1 "STM32F765ZGT6" H 2150 4250 60  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3200 3600 60  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 3200 3600 60  0001 C CNN
-F 4 "CHIP-001" H 2250 4500 60  0000 C CNN "part_num"
-	2    2150 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L WARG:STM32F765ZGT6 U4
-U 3 1 595F8B04
-P 2250 4950
-F 0 "U4" H 2250 5850 60  0000 C CNN
-F 1 "STM32F765ZGT6" H 2250 5700 60  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3300 5050 60  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 3300 5050 60  0001 C CNN
-F 4 "CHIP-001" H 2350 5950 60  0000 C CNN "part_num"
-	3    2250 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L WARG:STM32F765ZGT6 U4
 U 5 1 595F8BE2
 P 6500 2000
 F 0 "U4" H 6500 2900 60  0000 C CNN
@@ -709,10 +678,6 @@ Wire Wire Line
 	2900 3150 2650 3150
 Wire Wire Line
 	1500 2950 1650 2950
-Wire Wire Line
-	1700 4700 1500 4700
-Wire Wire Line
-	1700 4600 1500 4600
 Wire Wire Line
 	5850 3500 6050 3500
 Wire Wire Line
@@ -1336,5 +1301,52 @@ Wire Wire Line
 Wire Wire Line
 	1300 2300 1650 2300
 NoConn ~ 1700 4500
-NoConn ~ 1650 3050
+$Comp
+L WARG:STM32F765ZGT6 U4
+U 3 1 595F8B04
+P 2250 4950
+F 0 "U4" H 2250 5850 60  0000 C CNN
+F 1 "STM32F765ZGT6" H 2250 5700 60  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3300 5050 60  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 3300 5050 60  0001 C CNN
+F 4 "CHIP-001" H 2350 5950 60  0000 C CNN "part_num"
+	3    2250 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4800 1500 4800
+Wire Wire Line
+	1500 4900 1700 4900
+$Comp
+L WARG:STM32F765ZGT6 U4
+U 2 1 595F8A92
+P 2150 3500
+F 0 "U4" H 2150 4400 60  0000 C CNN
+F 1 "STM32F765ZGT6" H 2150 4250 60  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3200 3600 60  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 3200 3600 60  0001 C CNN
+F 4 "CHIP-001" H 2250 4500 60  0000 C CNN "part_num"
+	2    2150 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3050 1500 3050
+Text HLabel 1500 4800 0    60   BiDi ~ 0
+PC4
+Text HLabel 1500 4900 0    60   BiDi ~ 0
+PC5
+Text HLabel 1500 3050 0    60   BiDi ~ 0
+PB1_ADC2_IN9
+Wire Wire Line
+	1650 3150 1500 3150
+Text HLabel 1500 3150 0    60   BiDi ~ 0
+PB2
+Wire Wire Line
+	1700 4600 1500 4600
+Wire Wire Line
+	1500 4700 1700 4700
+Text HLabel 1500 4600 0    60   BiDi ~ 0
+SPI2_MISO
+Text HLabel 1500 4700 0    60   BiDi ~ 0
+SPI2_MOSI
 $EndSCHEMATC

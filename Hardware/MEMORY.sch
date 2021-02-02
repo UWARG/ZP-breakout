@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -27,8 +27,6 @@ F 3 "" H 9150 2600 50  0001 C CNN
 $EndComp
 Text HLabel 6950 1800 0    60   Input ~ 0
 SD_CMD
-Text HLabel 6950 2200 0    60   Input ~ 0
-SD_DAT0
 Text HLabel 6950 2000 0    60   Input ~ 0
 SD_CLK
 Text HLabel 6950 1900 0    60   Input ~ 0
@@ -279,4 +277,63 @@ Wire Wire Line
 	1900 5900 1900 5950
 Wire Wire Line
 	1900 4800 2150 4800
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 6029DDFA
+P 5050 1950
+AR Path="/59234D3B/6029DDFA" Ref="J?"  Part="1" 
+AR Path="/5920635A/6029DDFA" Ref="J32"  Part="1" 
+F 0 "J32" H 5150 2200 60  0000 C CNN
+F 1 "CONN-8" H 5150 1700 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5050 2000 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5050 2000 60  0001 C CNN
+F 4 "CONN-008" H 5250 2300 60  0001 C CNN "part_num"
+	1    5050 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 1550 5950 1550
+Wire Wire Line
+	5950 2250 5250 2250
+Wire Wire Line
+	5250 2150 5950 2150
+Wire Wire Line
+	5250 1950 5950 1950
+Wire Wire Line
+	5250 1850 5950 1850
+Wire Wire Line
+	5250 1750 5950 1750
+Wire Wire Line
+	5250 1650 5950 1650
+Text HLabel 5950 1550 2    60   Input ~ 0
+SD_DAT2
+Text HLabel 5950 1650 2    60   Input ~ 0
+SD_DAT3
+Text HLabel 5950 1950 2    60   Input ~ 0
+SD_CMD
+Text HLabel 5950 1850 2    60   Input ~ 0
+SD_VDD
+Text HLabel 5950 1750 2    60   Input ~ 0
+SD_CLK
+Text HLabel 6950 2200 0    60   Input ~ 0
+SD_DAT0
+Text HLabel 5950 2150 2    60   Input ~ 0
+SD_DAT0
+Text HLabel 5950 2250 2    60   Input ~ 0
+SD_DAT1
+$Comp
+L power:GND #PWR0112
+U 1 1 602A5B61
+P 5600 2300
+F 0 "#PWR0112" H 5600 2050 50  0001 C CNN
+F 1 "GND" H 5600 2150 50  0000 C CNN
+F 2 "" H 5600 2300 50  0001 C CNN
+F 3 "" H 5600 2300 50  0001 C CNN
+	1    5600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2300 5600 2050
+Wire Wire Line
+	5250 2050 5600 2050
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -14,11 +14,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1700 3200 2    60   Input ~ 0
+Text HLabel 1650 3550 2    60   Input ~ 0
 V_ISENSE
-Text HLabel 1750 3800 2    60   Input ~ 0
+Text HLabel 1700 4150 2    60   Input ~ 0
 DBG_RX_SAFETY
-Text HLabel 1750 3700 2    60   Input ~ 0
+Text HLabel 1700 4050 2    60   Input ~ 0
 DBG_TX_SAFETY
 $Comp
 L power:GND #PWR051
@@ -37,9 +37,9 @@ Text HLabel 4500 3050 2    60   Input ~ 0
 SDA2
 Text HLabel 4500 3150 2    60   Input ~ 0
 SCL2
-Text HLabel 4500 3700 2    60   Input ~ 0
+Text HLabel 4500 4900 2    60   Input ~ 0
 SDA4
-Text HLabel 4500 3800 2    60   Input ~ 0
+Text HLabel 4500 5000 2    60   Input ~ 0
 SCL4
 $Comp
 L power:GND #PWR052
@@ -105,20 +105,16 @@ F 3 "" H 8050 5700 50  0001 C CNN
 	1    8050 5700
 	1    0    0    -1  
 $EndComp
-Text HLabel 1650 2650 2    60   Input ~ 0
+Text HLabel 1600 3000 2    60   Input ~ 0
 IC/OC1
-Text HLabel 1650 2550 2    60   Input ~ 0
+Text HLabel 1600 2900 2    60   Input ~ 0
 IC/OC2
-Text HLabel 1650 2450 2    60   Input ~ 0
+Text HLabel 1600 2800 2    60   Input ~ 0
 V_USS
-Text HLabel 1700 1900 2    60   Input ~ 0
+Text HLabel 1650 2250 2    60   Input ~ 0
 V_AIRSPD
-Text HLabel 1700 2000 2    60   Input ~ 0
+Text HLabel 1650 2350 2    60   Input ~ 0
 AIRSPD
-Text HLabel 1650 1200 2    60   Input ~ 0
-V_PPM
-Text HLabel 1650 1300 2    60   Input ~ 0
-PPM
 Text HLabel 7400 2900 2    60   Input ~ 0
 SPI1_SS
 Text HLabel 7400 2700 2    60   Input ~ 0
@@ -127,7 +123,7 @@ Text HLabel 7400 2800 2    60   Input ~ 0
 SPI1_SI
 Text HLabel 7400 2600 2    60   Input ~ 0
 SPI1_CK
-Text HLabel 7950 2150 1    60   Input ~ 0
+Text HLabel 8200 1250 1    60   Input ~ 0
 V_SPI
 Text HLabel 5700 5500 2    60   Input ~ 0
 UART2_RTS
@@ -137,7 +133,7 @@ Text HLabel 5700 5300 2    60   Input ~ 0
 UART2_RX
 Text HLabel 5700 5200 2    60   Input ~ 0
 UART2_CTS
-Text HLabel 1750 4900 2    60   Input ~ 0
+Text HLabel 1700 5250 2    60   Input ~ 0
 UHF_RX
 $Comp
 L power:GND #PWR050
@@ -164,20 +160,20 @@ Text HLabel 1850 6050 2    59   Input ~ 0
 SCLK_SAFETY
 Text Label 4200 2300 1    59   ~ 0
 V_I2C
-Text HLabel 1750 4300 2    60   Input ~ 0
+Text HLabel 1700 4650 2    60   Input ~ 0
 DBG_RX_PILOT
-Text HLabel 1750 4200 2    60   Input ~ 0
+Text HLabel 1700 4550 2    60   Input ~ 0
 DBG_TX_PILOT
-Text HLabel 1750 4800 2    60   Input ~ 0
+Text HLabel 1700 5150 2    60   Input ~ 0
 UHF_TX
 Wire Wire Line
-	1600 3300 1450 3300
+	1550 3650 1400 3650
 Wire Wire Line
-	1700 3200 1450 3200
+	1650 3550 1400 3550
 Wire Wire Line
-	1750 3700 1500 3700
+	1700 4050 1450 4050
 Wire Wire Line
-	1750 3800 1500 3800
+	1700 4150 1450 4150
 Wire Wire Line
 	5600 2900 6500 2900
 Wire Wire Line
@@ -214,8 +210,6 @@ Wire Wire Line
 Wire Wire Line
 	7300 3350 8200 3350
 Wire Wire Line
-	8200 2300 8200 2500
-Wire Wire Line
 	7400 4250 7300 4250
 Wire Wire Line
 	7400 4550 7300 4550
@@ -232,38 +226,30 @@ Wire Wire Line
 Connection ~ 8050 5500
 Connection ~ 8050 4650
 Wire Wire Line
-	1600 2750 1450 2750
-Connection ~ 1600 3300
+	1550 3100 1400 3100
+Connection ~ 1550 3650
 Wire Wire Line
-	1650 2450 1450 2450
+	1600 2800 1400 2800
 Wire Wire Line
-	1450 2550 1650 2550
+	1400 2900 1600 2900
 Wire Wire Line
-	1650 2650 1450 2650
+	1600 3000 1400 3000
 Wire Wire Line
-	1450 2100 1600 2100
-Connection ~ 1600 2750
+	1400 2450 1550 2450
+Connection ~ 1550 3100
 Wire Wire Line
-	1700 2000 1450 2000
+	1650 2350 1400 2350
 Wire Wire Line
-	1450 1900 1700 1900
-Wire Wire Line
-	1600 1500 1600 2100
-Wire Wire Line
-	1450 1500 1600 1500
-Connection ~ 1600 2100
+	1400 2250 1650 2250
+Connection ~ 1550 2450
 Wire Wire Line
 	7400 2600 7300 2600
 Wire Wire Line
 	7400 2900 7300 2900
 Wire Wire Line
-	7950 2300 8200 2300
-Wire Wire Line
 	8200 3350 8200 4150
 Wire Wire Line
 	8050 3850 8050 4650
-Wire Wire Line
-	7950 2150 7950 2300
 Connection ~ 8200 3350
 Connection ~ 8200 4150
 Wire Wire Line
@@ -280,21 +266,19 @@ Wire Wire Line
 Wire Wire Line
 	5600 5500 5700 5500
 Wire Wire Line
-	1750 4800 1500 4800
+	1700 5150 1450 5150
 Wire Wire Line
-	1750 4900 1500 4900
+	1700 5250 1450 5250
 Wire Wire Line
 	6600 2400 5600 2400
 Wire Wire Line
 	7300 3850 8050 3850
 Wire Wire Line
-	1500 4200 1750 4200
+	1450 4550 1700 4550
 Wire Wire Line
-	1500 4300 1750 4300
+	1450 4650 1700 4650
 Wire Wire Line
-	1650 1300 1450 1300
-Wire Wire Line
-	1450 1400 1650 1400
+	1400 1650 1600 1650
 Wire Wire Line
 	7400 5400 7300 5400
 Wire Wire Line
@@ -313,31 +297,31 @@ Wire Wire Line
 	7400 2800 7300 2800
 Wire Wire Line
 	7300 2700 7400 2700
-Text HLabel 3550 5950 2    60   Input ~ 0
+Text HLabel 3150 5700 2    60   Input ~ 0
 TDO1_TST
-Text HLabel 3550 6050 2    60   Input ~ 0
+Text HLabel 3150 5800 2    60   Input ~ 0
 TMS1_TST
-Text HLabel 3550 6400 2    60   Input ~ 0
+Text HLabel 3150 5900 2    60   Input ~ 0
 TDO2_TST
-Text HLabel 3550 6500 2    60   Input ~ 0
+Text HLabel 3150 6000 2    60   Input ~ 0
 TMS2_TST
-Text HLabel 3550 6850 2    60   Input ~ 0
+Text HLabel 3150 6450 2    60   Input ~ 0
 UART1_RTS_TST
-Text HLabel 3550 6950 2    60   Input ~ 0
+Text HLabel 3150 6550 2    60   Input ~ 0
 UART1_CTS_TST
-Text HLabel 3550 7200 2    60   Input ~ 0
+Text HLabel 3150 6650 2    60   Input ~ 0
 UART2_RTS_TST
-Text HLabel 3550 7300 2    60   Input ~ 0
+Text HLabel 3150 6750 2    60   Input ~ 0
 UART2_CTS_TST
 $Comp
 L power:GND #PWR049
 U 1 1 5923F1BC
-P 1600 5200
-F 0 "#PWR049" H 1600 4950 50  0001 C CNN
-F 1 "GND" H 1600 5050 50  0000 C CNN
-F 2 "" H 1600 5200 50  0001 C CNN
-F 3 "" H 1600 5200 50  0001 C CNN
-	1    1600 5200
+P 1550 5550
+F 0 "#PWR049" H 1550 5300 50  0001 C CNN
+F 1 "GND" H 1550 5400 50  0000 C CNN
+F 2 "" H 1550 5550 50  0001 C CNN
+F 3 "" H 1550 5550 50  0001 C CNN
+	1    1550 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -347,9 +331,9 @@ Wire Wire Line
 Wire Wire Line
 	8050 4650 8050 5500
 Wire Wire Line
-	1600 2750 1600 3300
+	1550 3100 1550 3650
 Wire Wire Line
-	1600 2100 1600 2750
+	1550 2450 1550 3100
 Wire Wire Line
 	8200 4150 8200 5000
 Wire Wire Line
@@ -358,75 +342,26 @@ Wire Wire Line
 	6500 3750 6500 5600
 Wire Wire Line
 	6600 3250 6600 5100
-Text HLabel 1650 1400 2    60   Input ~ 0
+Text HLabel 1600 1650 2    60   Input ~ 0
 RSSI
 Wire Wire Line
-	1450 1200 1650 1200
+	1450 5350 1550 5350
+Connection ~ 1550 5350
 Wire Wire Line
-	1500 5000 1600 5000
-Connection ~ 1600 5000
+	1550 5350 1550 5550
 Wire Wire Line
-	1600 5000 1600 5200
-Wire Wire Line
-	1500 4700 1750 4700
-Text HLabel 1750 4700 2    60   Input ~ 0
+	1450 5050 1700 5050
+Text HLabel 1700 5050 2    60   Input ~ 0
 V_UHF
-Wire Wire Line
-	3900 3900 4050 3900
-Wire Wire Line
-	3900 4500 4050 4500
-Wire Wire Line
-	4050 4500 4050 5100
 Wire Wire Line
 	3900 5100 4050 5100
 Connection ~ 4050 5100
 Wire Wire Line
 	4050 5100 4050 5250
 Wire Wire Line
-	4050 3900 4050 4500
-Connection ~ 4050 4500
-Wire Wire Line
-	3900 3800 3950 3800
-Wire Wire Line
-	3900 3700 4000 3700
-Connection ~ 3950 3800
-Connection ~ 4200 3600
-Wire Wire Line
-	3900 3600 4200 3600
-Wire Wire Line
-	3950 3800 4500 3800
-Connection ~ 4000 3700
-Wire Wire Line
-	4000 3700 4500 3700
-Wire Wire Line
-	3950 3800 3950 4400
-Wire Wire Line
-	3950 4400 3900 4400
-Wire Wire Line
-	3950 4400 3950 5000
-Wire Wire Line
-	3950 5000 3900 5000
-Connection ~ 3950 4400
-Wire Wire Line
-	3900 4900 4000 4900
-Wire Wire Line
-	4000 4900 4000 4300
-Wire Wire Line
-	3900 4300 4000 4300
-Connection ~ 4000 4300
-Wire Wire Line
-	4000 4300 4000 3700
-Wire Wire Line
-	3900 4200 4200 4200
-Wire Wire Line
-	4200 3600 4200 4200
-Connection ~ 4200 4200
-Wire Wire Line
 	3900 4800 4200 4800
 Wire Wire Line
-	4200 4200 4200 4800
-Wire Wire Line
-	1600 3300 1600 5000
+	1550 3650 1550 5350
 Wire Wire Line
 	1900 6400 1800 6400
 Wire Wire Line
@@ -629,252 +564,143 @@ Wire Wire Line
 	3900 3050 4500 3050
 Wire Wire Line
 	3900 3150 4500 3150
-Connection ~ 4050 3900
 Wire Wire Line
 	3900 3250 4050 3250
 Wire Wire Line
-	4050 3250 4050 3900
-Wire Wire Line
 	3900 2950 4200 2950
 Connection ~ 4200 2950
-Wire Wire Line
-	4200 2950 4200 3600
 $Comp
-L Connector_Generic:Conn_01x03 J11
+L Connector_Generic:Conn_01x03 AIRSPEED1
 U 1 1 595BD83D
-P 1250 2000
-F 0 "J11" H 1350 2250 60  0000 C CNN
-F 1 "GH-3" H 1350 1800 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1250 2150 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1350 2250 60  0001 C CNN
-F 4 "CONN-07" H 1450 2350 60  0001 C CNN "part_num"
-	1    1250 2000
+P 1200 2350
+F 0 "AIRSPEED1" H 1300 2600 60  0000 C CNN
+F 1 "GH-3" H 1300 2150 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1200 2500 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1300 2600 60  0001 C CNN
+F 4 "CONN-007" H 1400 2700 60  0001 C CNN "part_num"
+	1    1200 2350
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J18
+L Connector_Generic:Conn_01x06 UART1
 U 1 1 595BDC13
 P 5400 2700
-F 0 "J18" H 5500 3050 60  0000 C CNN
+F 0 "UART1" H 5500 3050 60  0000 C CNN
 F 1 "GH-6" H 5500 2350 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5400 2850 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 2850 60  0001 C CNN
-F 4 "CONN-09" H 5600 3150 60  0001 C CNN "part_num"
+F 4 "CONN-009" H 5600 3150 60  0001 C CNN "part_num"
 	1    5400 2700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J19
+L Connector_Generic:Conn_01x06 UART4
 U 1 1 595BDC6A
 P 5400 3550
-F 0 "J19" H 5500 3900 60  0000 C CNN
+F 0 "UART4" H 5500 3900 60  0000 C CNN
 F 1 "GH-6" H 5500 3200 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5400 3700 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 3700 60  0001 C CNN
-F 4 "CONN-09" H 5600 4000 60  0001 C CNN "part_num"
+F 4 "CONN-009" H 5600 4000 60  0001 C CNN "part_num"
 	1    5400 3550
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J20
+L Connector_Generic:Conn_01x06 UART2
 U 1 1 595BDCF6
 P 5400 5400
-F 0 "J20" H 5500 5750 60  0000 C CNN
+F 0 "UART2" H 5500 5750 60  0000 C CNN
 F 1 "GH-6" H 5500 5050 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5400 5550 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 5550 60  0001 C CNN
-F 4 "CONN-09" H 5600 5850 60  0001 C CNN "part_num"
+F 4 "CONN-009" H 5600 5850 60  0001 C CNN "part_num"
 	1    5400 5400
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J21
+L Connector_Generic:Conn_01x06 SPI2
 U 1 1 595BDD92
 P 7100 3650
-F 0 "J21" H 7200 4000 60  0000 C CNN
+F 0 "SPI2" H 7200 4000 60  0000 C CNN
 F 1 "GH-6" H 7200 3300 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7100 3800 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 7100 3800 60  0001 C CNN
-F 4 "CONN-09" H 7300 4100 60  0001 C CNN "part_num"
+F 4 "CONN-009" H 7300 4100 60  0001 C CNN "part_num"
 	1    7100 3650
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J22
+L Connector_Generic:Conn_01x06 SPI4
 U 1 1 595BDDDE
 P 7100 4450
-F 0 "J22" H 7200 4800 60  0000 C CNN
+F 0 "SPI4" H 7200 4800 60  0000 C CNN
 F 1 "GH-6" H 7200 4100 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7100 4600 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 7100 4600 60  0001 C CNN
-F 4 "CONN-09" H 7300 4900 60  0001 C CNN "part_num"
+F 4 "CONN-009" H 7300 4900 60  0001 C CNN "part_num"
 	1    7100 4450
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J23
+L Connector_Generic:Conn_01x06 SPI5
 U 1 1 595BDE34
 P 7100 5300
-F 0 "J23" H 7200 5650 60  0000 C CNN
+F 0 "SPI5" H 7200 5650 60  0000 C CNN
 F 1 "GH-6" H 7200 4950 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7100 5450 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 7100 5450 60  0001 C CNN
-F 4 "CONN-09" H 7300 5750 60  0001 C CNN "part_num"
+F 4 "CONN-009" H 7300 5750 60  0001 C CNN "part_num"
 	1    7100 5300
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J10
+L Connector_Generic:Conn_01x03 RSSI1
 U 1 1 5966BE07
-P 1250 1400
-F 0 "J10" H 1350 1700 60  0000 C CNN
-F 1 "GH-4" H 1350 1150 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1250 1550 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1350 1650 60  0001 C CNN
-F 4 "CONN-08" H 1450 1750 60  0001 C CNN "part_num"
-	1    1250 1400
+P 1200 1750
+F 0 "RSSI1" H 1300 2050 60  0000 C CNN
+F 1 "GH-3" H 1300 1500 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1200 1900 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1300 2000 60  0001 C CNN
+F 4 "CONN-009" H 1400 2100 60  0001 C CNN "part_num"
+	1    1200 1750
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J12
+L Connector_Generic:Conn_01x04 USS1
 U 1 1 5966BE8B
-P 1250 2650
-F 0 "J12" H 1350 2900 60  0000 C CNN
-F 1 "GH-4" H 1350 2400 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1250 2700 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 2700 60  0001 C CNN
-F 4 "CONN-08" H 1450 3000 60  0001 C CNN "part_num"
-	1    1250 2650
+P 1200 3000
+F 0 "USS1" H 1300 3250 60  0000 C CNN
+F 1 "GH-4" H 1300 2750 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1200 3050 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1200 3050 60  0001 C CNN
+F 4 "CONN-008" H 1400 3350 60  0001 C CNN "part_num"
+	1    1200 3000
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 597D9B19
-P 1250 3300
+P 1200 3650
 AR Path="/597D9B19" Ref="J?"  Part="1" 
-AR Path="/59234D3B/597D9B19" Ref="J13"  Part="1" 
-F 0 "J13" H 1350 3450 60  0000 C CNN
-F 1 "GH-2" H 1350 3150 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 3250 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 3250 60  0001 C CNN
-F 4 "CONN-06" H 1450 3550 60  0001 C CNN "part_num"
-	1    1250 3300
+AR Path="/59234D3B/597D9B19" Ref="V_ISNS1"  Part="1" 
+F 0 "V_ISNS1" H 1300 3800 60  0000 C CNN
+F 1 "GH-2" H 1300 3500 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1200 3600 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1200 3600 60  0001 C CNN
+F 4 "CONN-006" H 1400 3900 60  0001 C CNN "part_num"
+	1    1200 3650
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5B2B2080
-P 3550 5950
-AR Path="/5B2B2080" Ref="TP?"  Part="1" 
-AR Path="/59234D3B/5B2B2080" Ref="TP19"  Part="1" 
-F 0 "TP19" V 3600 6800 50  0000 C BNN
-F 1 "TDO1_TST" V 3550 6350 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 5950 50  0001 C CNN
-F 3 "" H 3550 5950 50  0001 C CNN
-	1    3550 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5B2C685E
-P 3550 6050
-AR Path="/5B2C685E" Ref="TP?"  Part="1" 
-AR Path="/59234D3B/5B2C685E" Ref="TP20"  Part="1" 
-F 0 "TP20" V 3600 6900 50  0000 C BNN
-F 1 "TMS1_TST" V 3550 6450 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 6050 50  0001 C CNN
-F 3 "" H 3550 6050 50  0001 C CNN
-	1    3550 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5B2C6D6F
-P 3550 6400
-AR Path="/5B2C6D6F" Ref="TP?"  Part="1" 
-AR Path="/59234D3B/5B2C6D6F" Ref="TP21"  Part="1" 
-F 0 "TP21" V 3600 7250 50  0000 C BNN
-F 1 "TDO2_TST" V 3550 6800 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 6400 50  0001 C CNN
-F 3 "" H 3550 6400 50  0001 C CNN
-	1    3550 6400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5B2C6D75
-P 3550 6500
-AR Path="/5B2C6D75" Ref="TP?"  Part="1" 
-AR Path="/59234D3B/5B2C6D75" Ref="TP22"  Part="1" 
-F 0 "TP22" V 3600 7350 50  0000 C BNN
-F 1 "TMS2_TST" V 3550 6900 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 6500 50  0001 C CNN
-F 3 "" H 3550 6500 50  0001 C CNN
-	1    3550 6500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5B2C6F3D
-P 3550 6850
-AR Path="/5B2C6F3D" Ref="TP?"  Part="1" 
-AR Path="/59234D3B/5B2C6F3D" Ref="TP23"  Part="1" 
-F 0 "TP23" V 3600 7700 50  0000 C BNN
-F 1 "UART1_RTS_TST" V 3550 7350 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 6850 50  0001 C CNN
-F 3 "" H 3550 6850 50  0001 C CNN
-	1    3550 6850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5B2C716A
-P 3550 6950
-AR Path="/5B2C716A" Ref="TP?"  Part="1" 
-AR Path="/59234D3B/5B2C716A" Ref="TP24"  Part="1" 
-F 0 "TP24" V 3600 7800 50  0000 C BNN
-F 1 "UART1_CTS_TST" V 3550 7450 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 6950 50  0001 C CNN
-F 3 "" H 3550 6950 50  0001 C CNN
-	1    3550 6950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5B2C726E
-P 3550 7200
-AR Path="/5B2C726E" Ref="TP?"  Part="1" 
-AR Path="/59234D3B/5B2C726E" Ref="TP25"  Part="1" 
-F 0 "TP25" V 3600 8050 50  0000 C BNN
-F 1 "UART2_RTS_TST" V 3550 7700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 7200 50  0001 C CNN
-F 3 "" H 3550 7200 50  0001 C CNN
-	1    3550 7200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5B2C7274
-P 3550 7300
-AR Path="/5B2C7274" Ref="TP?"  Part="1" 
-AR Path="/59234D3B/5B2C7274" Ref="TP26"  Part="1" 
-F 0 "TP26" V 3600 8150 50  0000 C BNN
-F 1 "UART2_CTS_TST" V 3550 7800 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 7300 50  0001 C CNN
-F 3 "" H 3550 7300 50  0001 C CNN
-	1    3550 7300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J14
+L Connector_Generic:Conn_01x04 UHF1
 U 1 1 5CB789D7
-P 1300 4900
-F 0 "J14" H 1400 5200 60  0000 C CNN
-F 1 "GH-4" H 1400 4650 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1300 5050 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1400 5150 60  0001 C CNN
-F 4 "CONN-08" H 1500 5250 60  0001 C CNN "part_num"
-	1    1300 4900
+P 1250 5250
+F 0 "UHF1" H 1350 5550 60  0000 C CNN
+F 1 "GH-4" H 1350 5000 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1250 5400 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1350 5500 60  0001 C CNN
+F 4 "CONN-008" H 1450 5600 60  0001 C CNN "part_num"
+	1    1250 5250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -922,91 +748,67 @@ F 3 "~" H 9450 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J16
-U 1 1 5CB87A1F
-P 3700 4400
-F 0 "J16" H 3800 4650 60  0000 C CNN
-F 1 "GH-4" H 3800 4150 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3700 4450 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 4450 60  0001 C CNN
-F 4 "CONN-08" H 3900 4750 60  0001 C CNN "part_num"
-	1    3700 4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J17
-U 1 1 5CB87AB3
-P 3700 5000
-F 0 "J17" H 3800 5250 60  0000 C CNN
-F 1 "GH-4" H 3800 4750 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3700 5050 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 5050 60  0001 C CNN
-F 4 "CONN-08" H 3900 5350 60  0001 C CNN "part_num"
-	1    3700 5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J25
+L Connector_Generic:Conn_01x04 SWD_SAFE1
 U 1 1 600A9877
 P 1600 6150
-F 0 "J25" H 1700 6400 60  0000 C CNN
+F 0 "SWD_SAFE1" H 1700 6400 60  0000 C CNN
 F 1 "GH-4" H 1700 5900 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1600 6200 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1600 6200 60  0001 C CNN
-F 4 "CONN-08" H 1800 6500 60  0001 C CNN "part_num"
+F 4 "CONN-009" H 1800 6500 60  0001 C CNN "part_num"
 	1    1600 6150
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J26
+L Connector_Generic:Conn_01x04 SWD_AUTO1
 U 1 1 600EBAC4
 P 1600 6600
-F 0 "J26" H 1700 6850 60  0000 C CNN
+F 0 "SWD_AUTO1" H 1700 6850 60  0000 C CNN
 F 1 "GH-4" H 1700 6350 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1600 6650 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1600 6650 60  0001 C CNN
-F 4 "CONN-08" H 1800 6950 60  0001 C CNN "part_num"
+F 4 "CONN-009" H 1800 6950 60  0001 C CNN "part_num"
 	1    1600 6600
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J29
+L Connector_Generic:Conn_01x06 SPI1_IMU1
 U 1 1 6013708C
 P 7100 2800
-F 0 "J29" H 7200 3150 60  0000 C CNN
+F 0 "SPI1_IMU1" H 7200 3150 60  0000 C CNN
 F 1 "GH-6" H 7200 2450 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7100 2950 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 7100 2950 60  0001 C CNN
-F 4 "CONN-09" H 7300 3250 60  0001 C CNN "part_num"
+F 4 "CONN-009" H 7300 3250 60  0001 C CNN "part_num"
 	1    7100 2800
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 601576D6
-P 1300 3800
+P 1250 4150
 AR Path="/601576D6" Ref="J?"  Part="1" 
-AR Path="/59234D3B/601576D6" Ref="J7"  Part="1" 
-F 0 "J7" H 1400 3950 60  0000 C CNN
-F 1 "GH-2" H 1400 3650 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 3750 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1300 3750 60  0001 C CNN
-F 4 "CONN-06" H 1500 4050 60  0001 C CNN "part_num"
-	1    1300 3800
+AR Path="/59234D3B/601576D6" Ref="UART_DBG_SAFE1"  Part="1" 
+F 0 "UART_DBG_SAFE1" H 1350 4300 60  0000 C CNN
+F 1 "GH-2" H 1350 4000 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 4100 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 4100 60  0001 C CNN
+F 4 "CONN-006" H 1450 4400 60  0001 C CNN "part_num"
+	1    1250 4150
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 60157AF7
-P 1300 4300
+P 1250 4650
 AR Path="/60157AF7" Ref="J?"  Part="1" 
-AR Path="/59234D3B/60157AF7" Ref="J24"  Part="1" 
-F 0 "J24" H 1400 4450 60  0000 C CNN
-F 1 "GH-2" H 1400 4150 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 4250 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1300 4250 60  0001 C CNN
-F 4 "CONN-06" H 1500 4550 60  0001 C CNN "part_num"
-	1    1300 4300
+AR Path="/59234D3B/60157AF7" Ref="UART_DBG_AUTO1"  Part="1" 
+F 0 "UART_DBG_AUTO1" H 1350 4800 60  0000 C CNN
+F 1 "GH-2" H 1350 4500 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 4600 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 4600 60  0001 C CNN
+F 4 "CONN-006" H 1450 4900 60  0001 C CNN "part_num"
+	1    1250 4650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1206,38 +1008,38 @@ F 4 "RESS-005" V 3400 1250 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J15
+L Connector_Generic:Conn_01x04 GPIO_AUTO1
 U 1 1 595C30C3
-P 3700 3800
-F 0 "J15" H 3800 4050 60  0000 C CNN
-F 1 "GH-4" H 3800 3550 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3700 3850 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 3850 60  0001 C CNN
-F 4 "CONN-08" H 3900 4150 60  0001 C CNN "part_num"
-	1    3700 3800
+P 4650 6100
+F 0 "GPIO_AUTO1" H 4750 6350 60  0000 C CNN
+F 1 "GH-4" H 4750 5850 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4650 6150 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 4650 6150 60  0001 C CNN
+F 4 "CONN-008" H 4850 6450 60  0001 C CNN "part_num"
+	1    4650 6100
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J28
+L Connector_Generic:Conn_01x04 I2C2_ALT1
 U 1 1 604C40C3
 P 3700 3150
-F 0 "J28" H 3800 3400 60  0000 C CNN
+F 0 "I2C2_ALT1" H 3800 3400 60  0000 C CNN
 F 1 "GH-4" H 3800 2900 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3700 3200 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 3200 60  0001 C CNN
-F 4 "CONN-08" H 3900 3500 60  0001 C CNN "part_num"
+F 4 "CONN-008" H 3900 3500 60  0001 C CNN "part_num"
 	1    3700 3150
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J27
+L Connector_Generic:Conn_01x02 I2C1_SAFE_AUTO1
 U 1 1 604C5194
 P 3700 2550
-F 0 "J27" H 3800 2800 60  0000 C CNN
+F 0 "I2C1_SAFE_AUTO1" H 3800 2800 60  0000 C CNN
 F 1 "GH-2" H 3800 2300 60  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3700 2600 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 2600 60  0001 C CNN
-F 4 "CONN-08" H 3900 2900 60  0001 C CNN "part_num"
+F 4 "CONN-008" H 3900 2900 60  0001 C CNN "part_num"
 	1    3700 2550
 	-1   0    0    1   
 $EndComp
@@ -1385,4 +1187,184 @@ Text HLabel 9150 4300 0    60   Input ~ 0
 I2C_PULLUP
 Text HLabel 9200 5450 0    60   Input ~ 0
 I2C_PULLUP
+$Comp
+L Connector_Generic:Conn_01x04 I2C4
+U 1 1 5CB87AB3
+P 3700 5000
+F 0 "I2C4" H 3800 5250 60  0000 C CNN
+F 1 "GH-4" H 3800 4750 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3700 5050 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 5050 60  0001 C CNN
+F 4 "CONN-008" H 3900 5350 60  0001 C CNN "part_num"
+	1    3700 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 GPIO_SAFE1
+U 1 1 5CB87A1F
+P 4650 6900
+F 0 "GPIO_SAFE1" H 4750 7150 60  0000 C CNN
+F 1 "GH-4" H 4750 6650 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4650 6950 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 4650 6950 60  0001 C CNN
+F 4 "CONN-008" H 4850 7250 60  0001 C CNN "part_num"
+	1    4650 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 5000 4500 5000
+Wire Wire Line
+	3900 4900 4500 4900
+Wire Wire Line
+	4200 2950 4200 4800
+Wire Wire Line
+	4050 3250 4050 5100
+$Comp
+L Connector_Generic:Conn_01x06 SPI6_SAFE_AUTO1
+U 1 1 601D66EC
+P 7100 1950
+F 0 "SPI6_SAFE_AUTO1" H 7200 2300 60  0000 C CNN
+F 1 "GH-6" H 7200 1600 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7100 2100 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 7100 2100 60  0001 C CNN
+F 4 "CONN-009" H 7300 2400 60  0001 C CNN "part_num"
+	1    7100 1950
+	-1   0    0    1   
+$EndComp
+Text HLabel 7400 2050 2    60   Input ~ 0
+SPI6_SS
+Text HLabel 7400 1850 2    60   Input ~ 0
+SPI6_SDO
+Text HLabel 7400 1950 2    60   Input ~ 0
+SPI6_SI
+Text HLabel 7400 1750 2    60   Input ~ 0
+SPI6_CK
+Wire Wire Line
+	7400 1750 7300 1750
+Wire Wire Line
+	7400 2050 7300 2050
+Wire Wire Line
+	7400 1950 7300 1950
+Wire Wire Line
+	7300 1850 7400 1850
+Wire Wire Line
+	7300 2150 8050 2150
+Wire Wire Line
+	8050 2150 8050 3000
+Connection ~ 8050 3000
+Wire Wire Line
+	8200 1250 8200 1650
+Wire Wire Line
+	7300 1650 8200 1650
+Connection ~ 8200 1650
+Wire Wire Line
+	8200 1650 8200 2500
+Wire Wire Line
+	4850 5900 5400 5900
+Wire Wire Line
+	4850 6100 5400 6100
+Wire Wire Line
+	4850 6000 5400 6000
+Wire Wire Line
+	4850 6800 5400 6800
+Wire Wire Line
+	5000 7000 4850 7000
+Wire Wire Line
+	4850 6900 5400 6900
+Wire Wire Line
+	4850 6700 5400 6700
+$Comp
+L Connector_Generic:Conn_01x03 PPM1
+U 1 1 602CAD9F
+P 1200 1150
+F 0 "PPM1" H 1300 1400 60  0000 C CNN
+F 1 "GH-3" H 1300 950 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1200 1300 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1300 1400 60  0001 C CNN
+F 4 "CONN-007" H 1400 1500 60  0001 C CNN "part_num"
+	1    1200 1150
+	-1   0    0    1   
+$EndComp
+Text HLabel 1600 1050 2    60   Input ~ 0
+PPM
+Wire Wire Line
+	1600 1050 1400 1050
+Wire Wire Line
+	1550 1250 1400 1250
+NoConn ~ 1400 1150
+Text Label 4900 5900 0    60   ~ 0
+PC4
+Text Label 4900 6000 0    60   ~ 0
+PC5
+Text HLabel 5400 5900 2    60   BiDi ~ 0
+PC4
+Text HLabel 5400 6000 2    60   BiDi ~ 0
+PC5
+Text HLabel 5400 6100 2    60   BiDi ~ 0
+PB1
+Text Label 4900 6100 0    60   ~ 0
+PB1
+Text HLabel 5400 6800 2    60   BiDi ~ 0
+S_PC2
+Text HLabel 5400 6700 2    60   BiDi ~ 0
+S_PC3
+Text HLabel 5400 6900 2    60   BiDi ~ 0
+S_PC12
+Wire Wire Line
+	5000 7000 5000 7100
+$Comp
+L power:GND #PWR0113
+U 1 1 60530A53
+P 5000 7100
+F 0 "#PWR0113" H 5000 6850 50  0001 C CNN
+F 1 "GND" H 5000 6950 50  0000 C CNN
+F 2 "" H 5000 7100 50  0001 C CNN
+F 3 "" H 5000 7100 50  0001 C CNN
+	1    5000 7100
+	1    0    0    -1  
+$EndComp
+Text Label 4900 6800 0    60   ~ 0
+S_PC2
+Text Label 4900 6700 0    60   ~ 0
+S_PC3
+Text Label 4900 6900 0    60   ~ 0
+S_PC12
+Wire Wire Line
+	4850 6200 5400 6200
+Text HLabel 5400 6200 2    60   BiDi ~ 0
+PB2
+Text Label 4900 6200 0    60   ~ 0
+PB2
+Wire Wire Line
+	1400 1850 1550 1850
+Connection ~ 1550 1850
+Wire Wire Line
+	1550 1850 1550 2450
+Wire Wire Line
+	1550 1250 1550 1850
+NoConn ~ 1400 1750
+$Comp
+L Connector_Generic:Conn_01x04 TMS1
+U 1 1 60877BB4
+P 2950 5900
+F 0 "TMS1" H 3050 6150 60  0000 C CNN
+F 1 "GH-4" H 3050 5650 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2950 5950 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 2950 5950 60  0001 C CNN
+F 4 "CONN-009" H 3150 6250 60  0001 C CNN "part_num"
+	1    2950 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 608A45AD
+P 2950 6650
+F 0 "J1" H 3050 6900 60  0000 C CNN
+F 1 "GH-4" H 3050 6400 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2950 6700 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 2950 6700 60  0001 C CNN
+F 4 "CONN-008" H 3150 7000 60  0001 C CNN "part_num"
+	1    2950 6650
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

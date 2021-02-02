@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 8 10
 Title "Safety Switch Controller/ PPM Converter"
 Date "2017-05-14"
 Rev ""
@@ -410,8 +410,6 @@ Wire Wire Line
 	7150 3200 7150 3150
 Wire Wire Line
 	7150 3150 7400 3150
-NoConn ~ 3900 5400
-NoConn ~ 3900 5300
 NoConn ~ 3900 5200
 NoConn ~ 3900 5100
 NoConn ~ 4900 4250
@@ -954,6 +952,27 @@ F 4 "RESS-006" V 1400 2950 60  0001 C CNN "part_num"
 $EndComp
 Wire Wire Line
 	1400 2750 1400 2800
+Wire Wire Line
+	3900 5400 3300 5400
+Wire Wire Line
+	3900 5300 3300 5300
+Wire Wire Line
+	5450 5500 5450 5050
+Connection ~ 5450 5500
+Text Label 4950 5500 0    60   ~ 0
+PC12
+Text HLabel 3300 5300 0    60   BiDi ~ 0
+S_PC2
+Text HLabel 3300 5400 0    60   BiDi ~ 0
+S_PC3
+Text HLabel 5550 5050 2    60   BiDi ~ 0
+S_PC12
+Wire Wire Line
+	5450 5050 5550 5050
 Wire Bus Line
 	1850 5700 1850 7350
+Text Label 3400 5300 0    60   ~ 0
+PC2
+Text Label 3400 5400 0    60   ~ 0
+PC3
 $EndSCHEMATC
