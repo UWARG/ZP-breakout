@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZP-Breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -80,6 +79,7 @@ F 1 "10K" V 1650 5650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1580 5650 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 1650 5650 50  0001 C CNN
 F 4 "RESS-005" V 1650 5650 60  0001 C CNN "part_num"
+F 5 "C25804" V 1650 5650 50  0001 C CNN "LCSC"
 	1    1650 5650
 	1    0    0    -1  
 $EndComp
@@ -92,6 +92,7 @@ F 1 "0" V 1650 5100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1580 5100 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1650 5100 50  0001 C CNN
 F 4 "RESS-001" V 1650 5100 60  0001 C CNN "part_num"
+F 5 "C21189" V 1650 5100 50  0001 C CNN "LCSC"
 	1    1650 5100
 	1    0    0    -1  
 $EndComp
@@ -137,6 +138,7 @@ F 1 "10K" V 1900 5650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1830 5650 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 1900 5650 50  0001 C CNN
 F 4 "RESS-005" V 1900 5650 60  0001 C CNN "part_num"
+F 5 "C25804" V 1900 5650 50  0001 C CNN "LCSC"
 	1    1900 5650
 	1    0    0    -1  
 $EndComp
@@ -149,6 +151,7 @@ F 1 "10K" V 2150 5650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 2080 5650 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 2150 5650 50  0001 C CNN
 F 4 "RESS-005" V 2150 5650 60  0001 C CNN "part_num"
+F 5 "C25804" V 2150 5650 50  0001 C CNN "LCSC"
 	1    2150 5650
 	1    0    0    -1  
 $EndComp
@@ -161,6 +164,7 @@ F 1 "0" V 1900 5100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1830 5100 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 5100 50  0001 C CNN
 F 4 "RESS-001" V 1900 5100 60  0001 C CNN "part_num"
+F 5 "C21189" V 1900 5100 50  0001 C CNN "LCSC"
 	1    1900 5100
 	1    0    0    -1  
 $EndComp
@@ -173,6 +177,7 @@ F 1 "0" V 2150 5100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 2080 5100 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2150 5100 50  0001 C CNN
 F 4 "RESS-001" V 2150 5100 60  0001 C CNN "part_num"
+F 5 "C21189" V 2150 5100 50  0001 C CNN "LCSC"
 	1    2150 5100
 	1    0    0    -1  
 $EndComp
@@ -185,6 +190,7 @@ F 1 "10K" V 3950 5300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3880 5300 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3950 5300 50  0001 C CNN
 F 4 "RESS-005" V 3950 5300 60  0001 C CNN "part_num"
+F 5 " C25804" V 3950 5300 50  0001 C CNN "LCSC"
 	1    3950 5300
 	1    0    0    -1  
 $EndComp

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZP-Breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,13 +22,16 @@ F 1 "FT4232H" H 1550 6200 60  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1550 4400 60  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 950 4800 60  0001 C CNN
 F 4 "CHIP-005" H 1550 5900 60  0000 C CNN "part_num"
+F 5 "C56742" H 1550 5150 50  0001 C CNN "LCSC"
 	3    1550 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J9
+L ZP-Breakout-rescue:USB_B_Micro-Connector J9
 U 1 1 5B18AAF8
 P 1200 1700
+AR Path="/5B18AAF8" Ref="J9"  Part="1" 
+AR Path="/5B2B4997/5B18AAF8" Ref="J9"  Part="1" 
 F 0 "J9" H 1150 2250 50  0000 L CNN
 F 1 "USB_MICRO_B" H 950 2400 50  0000 L CNN
 F 2 "WARG:USB_Micro-B_10118194-0001LF" H 1250 1200 50  0001 C CNN
@@ -82,6 +84,7 @@ F 1 "100nF" H 2475 5250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 2488 5200 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 2450 5350 50  0001 C CNN
 F 4 "CAPP-005" H 2450 5350 60  0001 C CNN "part_num"
+F 5 "C14663" H 2450 5350 50  0001 C CNN "LCSC"
 	1    2450 5350
 	1    0    0    -1  
 $EndComp
@@ -96,6 +99,7 @@ F 1 "4.7uF" H 4975 5050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 4988 5000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MP5LNNC.jsp" H 4950 5150 50  0001 C CNN
 F 4 "CAPP-006" H 4950 5150 60  0001 C CNN "part_num"
+F 5 "C19666" H 4950 5150 50  0001 C CNN "LCSC"
 	1    4950 5150
 	1    0    0    -1  
 $EndComp
@@ -108,6 +112,7 @@ F 1 "100nF" H 2775 5250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 2788 5200 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 2750 5350 50  0001 C CNN
 F 4 "CAPP-005" H 2750 5350 60  0001 C CNN "part_num"
+F 5 "C14663" H 2750 5350 50  0001 C CNN "LCSC"
 	1    2750 5350
 	1    0    0    -1  
 $EndComp
@@ -120,6 +125,7 @@ F 1 "100nF" H 3075 5250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 3088 5200 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 3050 5350 50  0001 C CNN
 F 4 "CAPP-005" H 3050 5350 60  0001 C CNN "part_num"
+F 5 "C14663" H 3050 5350 50  0001 C CNN "LCSC"
 	1    3050 5350
 	1    0    0    -1  
 $EndComp
@@ -132,6 +138,7 @@ F 1 "100nF" H 1675 6050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1688 6000 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 1650 6150 50  0001 C CNN
 F 4 "CAPP-005" H 1650 6150 60  0001 C CNN "part_num"
+F 5 "C14663" H 1650 6150 50  0001 C CNN "LCSC"
 	1    1650 6150
 	1    0    0    -1  
 $EndComp
@@ -144,6 +151,7 @@ F 1 "100nF" H 1975 6050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1988 6000 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 1950 6150 50  0001 C CNN
 F 4 "CAPP-005" H 1950 6150 60  0001 C CNN "part_num"
+F 5 "C14663" H 1950 6150 50  0001 C CNN "LCSC"
 	1    1950 6150
 	1    0    0    -1  
 $EndComp
@@ -156,6 +164,7 @@ F 1 "100nF" H 2275 6050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 2288 6000 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 2250 6150 50  0001 C CNN
 F 4 "CAPP-005" H 2250 6150 60  0001 C CNN "part_num"
+F 5 "C14663" H 2250 6150 50  0001 C CNN "LCSC"
 	1    2250 6150
 	1    0    0    -1  
 $EndComp
@@ -168,6 +177,7 @@ F 1 "4.7uF" H 5275 5050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 5288 5000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MP5LNNC.jsp" H 5250 5150 50  0001 C CNN
 F 4 "CAPP-006" H 5250 5150 60  0001 C CNN "part_num"
+F 5 "C19666" H 5250 5150 50  0001 C CNN "LCSC"
 	1    5250 5150
 	1    0    0    -1  
 $EndComp
@@ -180,6 +190,7 @@ F 1 "100nF" H 4375 5050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 4388 5000 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 4350 5150 50  0001 C CNN
 F 4 "CAPP-005" H 4350 5150 60  0001 C CNN "part_num"
+F 5 "C14663" H 4350 5150 50  0001 C CNN "LCSC"
 	1    4350 5150
 	1    0    0    -1  
 $EndComp
@@ -192,6 +203,7 @@ F 1 "100nF" H 4675 5050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 4688 5000 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 4650 5150 50  0001 C CNN
 F 4 "CAPP-005" H 4650 5150 60  0001 C CNN "part_num"
+F 5 "C14663" H 4650 5150 50  0001 C CNN "LCSC"
 	1    4650 5150
 	1    0    0    -1  
 $EndComp
@@ -250,6 +262,7 @@ F 1 "100nF" H 6525 5050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 6538 5000 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6500 5150 50  0001 C CNN
 F 4 "CAPP-005" H 6500 5150 60  0001 C CNN "part_num"
+F 5 "C14663" H 6500 5150 50  0001 C CNN "LCSC"
 	1    6500 5150
 	1    0    0    -1  
 $EndComp
@@ -262,6 +275,7 @@ F 1 "4.7uF" H 6225 5050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 6238 5000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MP5LNNC.jsp" H 6200 5150 50  0001 C CNN
 F 4 "CAPP-006" H 6200 5150 60  0001 C CNN "part_num"
+F 5 "C19666" H 6200 5150 50  0001 C CNN "LCSC"
 	1    6200 5150
 	1    0    0    -1  
 $EndComp
@@ -274,6 +288,7 @@ F 1 "100nF" H 2575 6050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 2588 6000 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 2550 6150 50  0001 C CNN
 F 4 "CAPP-005" H 2550 6150 60  0001 C CNN "part_num"
+F 5 "C14663" H 2550 6150 50  0001 C CNN "LCSC"
 	1    2550 6150
 	1    0    0    -1  
 $EndComp
@@ -297,6 +312,7 @@ F 1 "100nF" H 3525 5250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 3538 5200 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 3500 5350 50  0001 C CNN
 F 4 "CAPP-005" H 3500 5350 60  0001 C CNN "part_num"
+F 5 "C14663" H 3500 5350 50  0001 C CNN "LCSC"
 	1    3500 5350
 	1    0    0    -1  
 $EndComp
@@ -309,6 +325,7 @@ F 1 "3.3uF" H 3825 5250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 3838 5200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A335KP8NNNC.jsp" H 3800 5350 50  0001 C CNN
 F 4 "CAPP-015" H 3800 5350 60  0001 C CNN "part_num"
+F 5 "C51412" H 3800 5350 50  0001 C CNN "LCSC"
 	1    3800 5350
 	1    0    0    -1  
 $EndComp
@@ -368,6 +385,7 @@ F 1 "220" V 7950 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 7880 1900 50  0001 C CNN
 F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf" H 7950 1900 50  0001 C CNN
 F 4 "RESS-014" V 7950 1900 60  0001 C CNN "part_num"
+F 5 "C22962" V 7950 1900 50  0001 C CNN "LCSC"
 	1    7950 1900
 	0    1    1    0   
 $EndComp
@@ -384,6 +402,7 @@ F 1 "220" V 9950 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 9880 1900 50  0001 C CNN
 F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf" H 9950 1900 50  0001 C CNN
 F 4 "RESS-014" V 9950 1900 60  0001 C CNN "part_num"
+F 5 "C22962" V 9950 1900 50  0001 C CNN "LCSC"
 	1    9950 1900
 	0    -1   1    0   
 $EndComp
@@ -762,6 +781,7 @@ F 1 "0" V 9700 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 9630 2000 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 2000 50  0001 C CNN
 F 4 "RESS-001" V 9700 2000 60  0001 C CNN "part_num"
+F 5 "C21189" V 9700 2000 50  0001 C CNN "LCSC"
 	1    9700 2000
 	0    -1   1    0   
 $EndComp
@@ -774,6 +794,7 @@ F 1 "0" V 8200 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 8130 2000 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 8200 2000 50  0001 C CNN
 F 4 "RESS-001" V 8200 2000 60  0001 C CNN "part_num"
+F 5 "C21189" V 8200 2000 50  0001 C CNN "LCSC"
 	1    8200 2000
 	0    1    1    0   
 $EndComp
@@ -944,6 +965,7 @@ F 1 "10" V 3000 1800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 2930 1800 50  0001 C CNN
 F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" H 3000 1800 50  0001 C CNN
 F 4 "RESS-018" V 3000 1800 60  0001 C CNN "part_num"
+F 5 "C22859" V 3000 1800 50  0001 C CNN "LCSC"
 	1    3000 1800
 	0    1    1    0   
 $EndComp
@@ -956,6 +978,7 @@ F 1 "10" V 3000 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 2930 1700 50  0001 C CNN
 F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" H 3000 1700 50  0001 C CNN
 F 4 "RESS-018" V 3000 1700 60  0001 C CNN "part_num"
+F 5 "C22859" V 3000 1700 50  0001 C CNN "LCSC"
 	1    3000 1700
 	0    1    1    0   
 $EndComp
@@ -985,6 +1008,7 @@ F 1 "1K" V 3000 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 2930 2350 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3000 2350 50  0001 C CNN
 F 4 "RESS-017" V 3000 2350 60  0001 C CNN "part_num"
+F 5 "C21190" V 3000 2350 50  0001 C CNN "LCSC"
 	1    3000 2350
 	0    1    1    0   
 $EndComp
@@ -997,6 +1021,7 @@ F 1 "12K" V 2800 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 2730 2650 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2800 2650 50  0001 C CNN
 F 4 "RESS-016" V 2800 2650 60  0001 C CNN "part_num"
+F 5 "C22790" V 2800 2650 50  0001 C CNN "LCSC"
 	1    2800 2650
 	1    0    0    -1  
 $EndComp
@@ -1009,6 +1034,7 @@ F 1 "10K" V 2550 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 2480 2650 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 2550 2650 50  0001 C CNN
 F 4 "RESS-005" V 2550 2650 60  0001 C CNN "part_num"
+F 5 " C25804" V 2550 2650 50  0001 C CNN "LCSC"
 	1    2550 2650
 	1    0    0    -1  
 $EndComp
@@ -1066,6 +1092,7 @@ F 1 "4.7K" V 2550 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 2480 2050 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 2050 50  0001 C CNN
 F 4 "RESS-015" V 2550 2050 60  0001 C CNN "part_num"
+F 5 "C23162" V 2550 2050 50  0001 C CNN "LCSC"
 	1    2550 2050
 	1    0    0    -1  
 $EndComp

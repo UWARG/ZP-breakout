@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZP-Breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -161,7 +160,7 @@ Wire Wire Line
 	2700 2800 3050 2800
 Connection ~ 2700 2800
 $Comp
-L WARG:MS5637-02BA03 U7
+L ZP-Breakout-rescue:MS5637-02BA03-WARG U7
 U 1 1 5B0F962E
 P 6200 3650
 AR Path="/5B0F962E" Ref="U7"  Part="1" 
@@ -183,6 +182,7 @@ F 1 "100nF" H 6225 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 6238 2900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6200 3050 50  0001 C CNN
 F 4 "CAPP-005" H 6200 3050 60  0001 C CNN "part_num"
+F 5 "C14663" H 6200 3050 50  0001 C CNN "LCSC"
 	1    6200 3050
 	0    1    1    0   
 $EndComp
@@ -195,6 +195,7 @@ F 1 "100nF" H 3775 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 3788 2900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 3750 3050 50  0001 C CNN
 F 4 "CAPP-005" H 3750 3050 60  0001 C CNN "part_num"
+F 5 "C14663" H 3750 3050 50  0001 C CNN "LCSC"
 	1    3750 3050
 	1    0    0    -1  
 $EndComp
@@ -207,6 +208,7 @@ F 1 "2.2uF" H 2725 2850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 2738 2800 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/specSheet?pn=TMK107ABJ225KA-T++" H 2700 2950 50  0001 C CNN
 F 4 "CAPP-007" H 2700 2950 60  0001 C CNN "part_num"
+F 5 "C23630" H 2700 2950 50  0001 C CNN "LCSC"
 	1    2700 2950
 	1    0    0    -1  
 $EndComp
@@ -219,6 +221,7 @@ F 1 "100nF" H 2425 2850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 2438 2800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 2400 2950 50  0001 C CNN
 F 4 "CAPP-005" H 2400 2950 60  0001 C CNN "part_num"
+F 5 "C14663" H 2400 2950 50  0001 C CNN "LCSC"
 	1    2400 2950
 	1    0    0    -1  
 $EndComp
@@ -231,11 +234,12 @@ F 1 "10nF" H 1725 3500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 2040 3600 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 1700 3600 50  0001 C CNN
 F 4 "CAPP-010" H 1700 3600 60  0001 C CNN "part_num"
+F 5 "C57112" H 1700 3600 50  0001 C CNN "LCSC"
 	1    1700 3600
 	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:ICM-20602 U?
+L ZP-Breakout-rescue:ICM-20602-WARG U?
 U 1 1 5B0F92D3
 P 3150 3650
 AR Path="/5B0F92D3" Ref="U?"  Part="1" 

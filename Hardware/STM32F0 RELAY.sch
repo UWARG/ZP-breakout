@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZP-Breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -221,6 +220,7 @@ F 1 "7pF" H 6575 2600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 6588 2550 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012006031.pdf" H 6550 2700 50  0001 C CNN
 F 4 "CAPP-009" H 6550 2700 60  0001 C CNN "part_num"
+F 5 "C1679" H 6550 2700 50  0001 C CNN "LCSC"
 	1    6550 2700
 	0    -1   -1   0   
 $EndComp
@@ -233,6 +233,7 @@ F 1 "7pF" H 6575 2900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 6588 2850 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012006031.pdf" H 6550 3000 50  0001 C CNN
 F 4 "CAPP-009" H 6550 3000 60  0001 C CNN "part_num"
+F 5 "C1679" H 6550 3000 50  0001 C CNN "LCSC"
 	1    6550 3000
 	0    -1   -1   0   
 $EndComp
@@ -245,6 +246,7 @@ F 1 "14pF" H 6575 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 6588 2300 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012006033.pdf" H 6550 2450 50  0001 C CNN
 F 4 "CAPP-008" H 6550 2450 60  0001 C CNN "part_num"
+F 5 "C1644" H 6550 2450 50  0001 C CNN "LCSC"
 	1    6550 2450
 	0    -1   -1   0   
 $EndComp
@@ -257,6 +259,7 @@ F 1 "14pF" H 6575 2050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 6588 2000 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012006033.pdf" H 6550 2150 50  0001 C CNN
 F 4 "CAPP-008" H 6550 2150 60  0001 C CNN "part_num"
+F 5 "C1644" H 6550 2150 50  0001 C CNN "LCSC"
 	1    6550 2150
 	0    -1   -1   0   
 $EndComp
@@ -361,6 +364,7 @@ F 1 "LED" H 5800 5650 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad0.67x1.00mm_HandSolder" H 5800 5750 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" H 5800 5750 50  0001 C CNN
 F 4 "DIOD-002" H 5800 5750 60  0001 C CNN "part_num"
+F 5 "C72043" H 5800 5750 50  0001 C CNN "LCSC"
 	1    5800 5750
 	0    -1   -1   0   
 $EndComp
@@ -373,6 +377,7 @@ F 1 "100" V 5800 6150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 5730 6150 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5800 6150 50  0001 C CNN
 F 4 "RESS-006" V 5800 6150 60  0001 C CNN "part_num"
+F 5 "C22775" V 5800 6150 50  0001 C CNN "LCSC"
 	1    5800 6150
 	1    0    0    -1  
 $EndComp
@@ -422,6 +427,7 @@ F 1 "LED" H 5450 5650 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad0.67x1.00mm_HandSolder" H 5450 5750 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" H 5450 5750 50  0001 C CNN
 F 4 "DIOD-002" H 5450 5750 60  0001 C CNN "part_num"
+F 5 "C72043" H 5450 5750 50  0001 C CNN "LCSC"
 	1    5450 5750
 	0    -1   -1   0   
 $EndComp
@@ -434,6 +440,7 @@ F 1 "100" V 5450 6150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 5380 6150 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5450 6150 50  0001 C CNN
 F 4 "RESS-006" V 5450 6150 60  0001 C CNN "part_num"
+F 5 "C22775" V 5450 6150 50  0001 C CNN "LCSC"
 	1    5450 6150
 	1    0    0    -1  
 $EndComp
@@ -461,6 +468,7 @@ F 1 "LED" H 6150 5650 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad0.67x1.00mm_HandSolder" H 6150 5750 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" H 6150 5750 50  0001 C CNN
 F 4 "DIOD-002" H 6150 5750 60  0001 C CNN "part_num"
+F 5 "C72043" H 6150 5750 50  0001 C CNN "LCSC"
 	1    6150 5750
 	0    -1   -1   0   
 $EndComp
@@ -473,6 +481,7 @@ F 1 "100" V 6150 6150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 6080 6150 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 6150 6150 50  0001 C CNN
 F 4 "RESS-006" V 6150 6150 60  0001 C CNN "part_num"
+F 5 "C22775" V 6150 6150 50  0001 C CNN "LCSC"
 	1    6150 6150
 	1    0    0    -1  
 $EndComp
@@ -515,7 +524,7 @@ F 3 "" H 2100 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F091RCT7 U9
+L ZP-Breakout-rescue:STM32F091RCT7-WARG U9
 U 5 1 599C1AE4
 P 8350 4900
 AR Path="/599C1AE4" Ref="U9"  Part="5" 
@@ -581,6 +590,7 @@ F 1 "10K" V 7400 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 7330 3300 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 7400 3300 50  0001 C CNN
 F 4 "RESS-005" V 7400 3300 60  0001 C CNN "part_num"
+F 5 " C25804" V 7400 3300 50  0001 C CNN "LCSC"
 	1    7400 3300
 	1    0    0    -1  
 $EndComp
@@ -646,6 +656,7 @@ F 1 "100K" V 2100 4350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 2030 4350 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2100 4350 50  0001 C CNN
 F 4 "RESS-008" V 2100 4350 60  0001 C CNN "part_num"
+F 5 "C25803" V 2100 4350 50  0001 C CNN "LCSC"
 	1    2100 4350
 	-1   0    0    -1  
 $EndComp
@@ -662,6 +673,7 @@ F 1 "100nF" H 8425 4950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 8438 4900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 8400 5050 50  0001 C CNN
 F 4 "CAPP-005" H 8400 5050 60  0001 C CNN "part_num"
+F 5 "C14663" H 8400 5050 50  0001 C CNN "LCSC"
 	1    8400 5050
 	1    0    0    -1  
 $EndComp
@@ -708,6 +720,7 @@ F 1 "10nF" H 6925 4950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 6938 4900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 6900 5050 50  0001 C CNN
 F 4 "CAPP-010" H 6900 5050 60  0001 C CNN "part_num"
+F 5 "C57112" H 6900 5050 50  0001 C CNN "LCSC"
 	1    6900 5050
 	1    0    0    -1  
 $EndComp
@@ -720,6 +733,7 @@ F 1 "1uF" H 7175 4950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 7188 4900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 7150 5050 50  0001 C CNN
 F 4 "CAPP-004" H 7150 5050 60  0001 C CNN "part_num"
+F 5 "C15849" H 7150 5050 50  0001 C CNN "LCSC"
 	1    7150 5050
 	1    0    0    -1  
 $EndComp
@@ -732,6 +746,7 @@ F 1 "4.7uF" H 7675 4950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 7688 4900 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MP5LNNC.jsp" H 7650 5050 50  0001 C CNN
 F 4 "CAPP-006" H 7650 5050 60  0001 C CNN "part_num"
+F 5 "C19666" H 7650 5050 50  0001 C CNN "LCSC"
 	1    7650 5050
 	1    0    0    -1  
 $EndComp
@@ -744,6 +759,7 @@ F 1 "100nF" H 8175 4950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 8188 4900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 8150 5050 50  0001 C CNN
 F 4 "CAPP-005" H 8150 5050 60  0001 C CNN "part_num"
+F 5 "C14663" H 8150 5050 50  0001 C CNN "LCSC"
 	1    8150 5050
 	1    0    0    -1  
 $EndComp
@@ -756,6 +772,7 @@ F 1 "100nF" H 7925 4950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 7938 4900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7900 5050 50  0001 C CNN
 F 4 "CAPP-005" H 7900 5050 60  0001 C CNN "part_num"
+F 5 "C14663" H 7900 5050 50  0001 C CNN "LCSC"
 	1    7900 5050
 	1    0    0    -1  
 $EndComp
@@ -768,6 +785,7 @@ F 1 "100nF" H 7425 4950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 7438 4900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7400 5050 50  0001 C CNN
 F 4 "CAPP-005" H 7400 5050 60  0001 C CNN "part_num"
+F 5 "C14663" H 7400 5050 50  0001 C CNN "LCSC"
 	1    7400 5050
 	1    0    0    -1  
 $EndComp
@@ -851,7 +869,7 @@ Wire Wire Line
 NoConn ~ 3950 2850
 NoConn ~ 3950 2750
 $Comp
-L WARG:STM32F091RCT7 U9
+L ZP-Breakout-rescue:STM32F091RCT7-WARG U9
 U 1 1 599C1943
 P 4400 3200
 AR Path="/599C1943" Ref="U9"  Part="1" 
@@ -861,11 +879,12 @@ F 1 "STM32F091RCT7" H 4400 4100 60  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4150 3700 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/95/3c/2e/5b/21/09/45/a6/DM00115237.pdf/files/DM00115237.pdf/jcr:content/translations/en.DM00115237.pdf" H 4150 3700 60  0001 C CNN
 F 4 "CHIP-008" H 4500 4300 60  0001 C CNN "part_num"
+F 5 "C81046" H 4400 3200 50  0001 C CNN "LCSC"
 	1    4400 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F091RCT7 U9
+L ZP-Breakout-rescue:STM32F091RCT7-WARG U9
 U 3 1 599C1A21
 P 4400 5850
 AR Path="/599C1A21" Ref="U9"  Part="3" 
@@ -879,7 +898,7 @@ F 4 "CHIP-008" H 4500 6950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F091RCT7 U9
+L ZP-Breakout-rescue:STM32F091RCT7-WARG U9
 U 2 1 599C19BB
 P 4400 4600
 AR Path="/599C19BB" Ref="U9"  Part="2" 
@@ -893,7 +912,7 @@ F 4 "CHIP-008" H 4500 5700 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F091RCT7 U9
+L ZP-Breakout-rescue:STM32F091RCT7-WARG U9
 U 4 1 599C1A7B
 P 8000 3000
 AR Path="/599C1A7B" Ref="U9"  Part="4" 
@@ -931,6 +950,7 @@ F 1 "100" V 1400 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1330 3250 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1400 3250 50  0001 C CNN
 F 4 "RESS-006" V 1400 3250 60  0001 C CNN "part_num"
+F 5 "C22775" V 1400 3250 50  0001 C CNN "LCSC"
 	1    1400 3250
 	1    0    0    -1  
 $EndComp
@@ -947,6 +967,7 @@ F 1 "100" V 1400 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1330 2950 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1400 2950 50  0001 C CNN
 F 4 "RESS-006" V 1400 2950 60  0001 C CNN "part_num"
+F 5 "C22775" V 1400 2950 50  0001 C CNN "LCSC"
 	1    1400 2950
 	1    0    0    -1  
 $EndComp
