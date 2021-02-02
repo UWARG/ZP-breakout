@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name WARG-kicad)(type KiCad)(uri C:/Users/Lu/dev/ZP-Breakout1/WARG-KiCAD/WARG-kicad.pretty)(options "")(descr ""))
+)
