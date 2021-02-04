@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZP-Breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,6 +47,7 @@ F 1 "22K" V 3850 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3780 2900 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3850 2900 50  0001 C CNN
 F 4 "RESS-002" V 3850 2900 60  0001 C CNN "part_num"
+F 5 " C31850" V 3850 2900 50  0001 C CNN "LCSC"
 	1    3850 2900
 	1    0    0    -1  
 $EndComp
@@ -60,6 +60,7 @@ F 1 "150K" V 3400 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3330 2700 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3400 2700 50  0001 C CNN
 F 4 "RESS-007" V 3400 2700 60  0001 C CNN "part_num"
+F 5 "C22813" V 3400 2700 50  0001 C CNN "LCSC"
 	1    3400 2700
 	0    1    1    0   
 $EndComp
@@ -115,6 +116,7 @@ F 1 "22K" V 3850 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3780 3900 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3850 3900 50  0001 C CNN
 F 4 "RESS-002" V 3850 3900 60  0001 C CNN "part_num"
+F 5 "C31850" V 3850 3900 50  0001 C CNN "LCSC"
 	1    3850 3900
 	1    0    0    -1  
 $EndComp
@@ -131,6 +133,7 @@ F 1 "11K" V 3450 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3380 3600 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3450 3600 50  0001 C CNN
 F 4 "RESS-004" V 3450 3600 60  0001 C CNN "part_num"
+F 5 "C25950" V 3450 3600 50  0001 C CNN "LCSC"
 	1    3450 3600
 	0    1    1    0   
 $EndComp
